@@ -1,0 +1,6 @@
+{
+  "The {{field}} field is required.": "Das Feld {{field}} ist erforderlich.",
+  "The {{field}} must be a valid email address.": "{{field}} muss eine gültige E-Mail-Adresse sein.",
+  "The selected {{field}} is invalid.": "Die Auswahl für {{field}} ist ungültig.",
+  "Select at least one role.": "Wählen Sie mindestens eine Rolle aus."
+}

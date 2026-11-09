@@ -1,0 +1,18 @@
+{
+  "Security & compliance overview": "Sicherheits- & Compliance-Übersicht",
+  "All systems healthy · {{users}} active users · {{events}} events in the past hour": "Alle Systeme fehlerfrei · {{users}} aktive Benutzer · {{events}} Ereignisse in der letzten Stunde",
+  "Refresh": "Aktualisieren",
+  "Export report": "Bericht exportieren",
+  "Users · active": "Benutzer · aktiv",
+  "2FA coverage": "2FA-Abdeckung",
+  "Failed logins": "Fehlgeschlagene Anmeldungen",
+  "Recent audit events": "Aktuelle Audit-Ereignisse",
+  "Last 8 events · cross-system": "Letzte 8 Ereignisse · systemübergreifend",
+  "View all": "Alle anzeigen",
+  "Actor": "Akteur",
+  "Severity": "Schweregrad",
+  "6 active · 1 warning": "6 aktiv · 1 Warnung",
+  "Quick admin actions": "Schnelle Admin-Aktionen",
+  "Run access review": "Zugriffsprüfung starten",
+  "Export audit": "Audit exportieren"
+}

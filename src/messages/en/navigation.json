@@ -1,0 +1,23 @@
+{
+  "Overview": "Overview",
+  "Identity": "Identity",
+  "Trust": "Trust",
+  "Dashboard": "Dashboard",
+  "User management": "User management",
+  "Roles & permissions": "Roles & permissions",
+  "Audit & compliance": "Audit & compliance",
+  "System settings": "System settings",
+  "Admin Portal": "Admin Portal",
+  "Search users, roles, audit events… (Ctrl K)": "Search users, roles, audit events… (Ctrl K)",
+  "Help": "Help",
+  "Notifications": "Notifications",
+  "Close sidebar": "Close sidebar",
+  "Open sidebar": "Open sidebar",
+  "Main navigation": "Main navigation",
+  "Collapse sidebar": "Collapse sidebar",
+  "Expand sidebar": "Expand sidebar",
+  "Language": "Language",
+  "Toggle theme": "Toggle theme",
+  "Light mode": "Light mode",
+  "Dark mode": "Dark mode"
+}

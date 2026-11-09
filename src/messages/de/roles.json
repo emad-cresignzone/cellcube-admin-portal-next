@@ -1,0 +1,12 @@
+{
+  "{{count}} predefined roles · custom roles allowed by policy": "{{count}} vordefinierte Rollen · benutzerdefinierte Rollen laut Richtlinie erlaubt",
+  "Export matrix": "Matrix exportieren",
+  "{{count}} users": "{{count}} Benutzer",
+  "+ {{count}} more": "+ {{count}} weitere",
+  "{{count}} users · system role": "{{count}} Benutzer · Systemrolle",
+  "Edit description": "Beschreibung bearbeiten",
+  "Edit": "Bearbeiten",
+  "{{count}} grants · grouped by domain": "{{count}} Rechte · nach Bereich gruppiert",
+  "{{count}} users assigned": "{{count}} Benutzer zugewiesen",
+  "Assign more users": "Weitere Benutzer zuweisen"
+}

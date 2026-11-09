@@ -1,0 +1,13 @@
+{
+  "All logins, permission changes, exports, system changes, failed actions · {{months}}-month retention": "All logins, permission changes, exports, system changes, failed actions · {{months}}-month retention",
+  "Filters": "Filters",
+  "Export CSV": "Export CSV",
+  "High severity": "High severity",
+  "Denied": "Denied",
+  "Outcome": "Outcome",
+  "Detail": "Detail",
+  "ok": "ok",
+  "deny": "deny",
+  "High": "High",
+  "Info": "Info"
+}

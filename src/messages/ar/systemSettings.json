@@ -1,0 +1,13 @@
+{
+  "Security rules, password policy, sessions, integrations, audit retention, branding": "قواعد الأمان وسياسة كلمات المرور والجلسات والتكاملات والاحتفاظ بالتدقيق والعلامة التجارية",
+  "Sessions": "الجلسات",
+  "Branding": "العلامة التجارية",
+  "Password policy": "سياسة كلمات المرور",
+  "Account lockout": "قفل الحساب",
+  "Storage and forwarding": "التخزين وإعادة التوجيه",
+  "Integration": "التكامل",
+  "Type": "النوع",
+  "Health": "السلامة",
+  "Healthy": "سليم",
+  "Off": "متوقف"
+}

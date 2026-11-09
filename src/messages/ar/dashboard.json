@@ -1,0 +1,18 @@
+{
+  "Security & compliance overview": "نظرة عامة على الأمان والامتثال",
+  "All systems healthy · {{users}} active users · {{events}} events in the past hour": "جميع الأنظمة سليمة · {{users}} مستخدمًا نشطًا · {{events}} أحداث في الساعة الماضية",
+  "Refresh": "تحديث",
+  "Export report": "تصدير التقرير",
+  "Users · active": "المستخدمون · نشط",
+  "2FA coverage": "تغطية المصادقة الثنائية",
+  "Failed logins": "محاولات دخول فاشلة",
+  "Recent audit events": "أحدث أحداث التدقيق",
+  "Last 8 events · cross-system": "آخر 8 أحداث · عبر الأنظمة",
+  "View all": "عرض الكل",
+  "Actor": "المنفذ",
+  "Severity": "الخطورة",
+  "6 active · 1 warning": "6 نشطة · تحذير واحد",
+  "Quick admin actions": "إجراءات إدارية سريعة",
+  "Run access review": "تشغيل مراجعة الوصول",
+  "Export audit": "تصدير التدقيق"
+}

@@ -1,0 +1,23 @@
+{
+  "Overview": "نظرة عامة",
+  "Identity": "الهوية",
+  "Trust": "الثقة",
+  "Dashboard": "لوحة التحكم",
+  "User management": "إدارة المستخدمين",
+  "Roles & permissions": "الأدوار والأذونات",
+  "Audit & compliance": "التدقيق والامتثال",
+  "System settings": "إعدادات النظام",
+  "Admin Portal": "بوابة الإدارة",
+  "Search users, roles, audit events… (Ctrl K)": "ابحث عن المستخدمين والأدوار وأحداث التدقيق… (Ctrl K)",
+  "Help": "مساعدة",
+  "Notifications": "الإشعارات",
+  "Close sidebar": "إغلاق الشريط الجانبي",
+  "Open sidebar": "فتح الشريط الجانبي",
+  "Main navigation": "التنقل الرئيسي",
+  "Collapse sidebar": "طي الشريط الجانبي",
+  "Expand sidebar": "توسيع الشريط الجانبي",
+  "Language": "اللغة",
+  "Toggle theme": "تبديل المظهر",
+  "Light mode": "المظهر الفاتح",
+  "Dark mode": "المظهر الداكن"
+}

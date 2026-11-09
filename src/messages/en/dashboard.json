@@ -1,0 +1,18 @@
+{
+  "Security & compliance overview": "Security & compliance overview",
+  "All systems healthy · {{users}} active users · {{events}} events in the past hour": "All systems healthy · {{users}} active users · {{events}} events in the past hour",
+  "Refresh": "Refresh",
+  "Export report": "Export report",
+  "Users · active": "Users · active",
+  "2FA coverage": "2FA coverage",
+  "Failed logins": "Failed logins",
+  "Recent audit events": "Recent audit events",
+  "Last 8 events · cross-system": "Last 8 events · cross-system",
+  "View all": "View all",
+  "Actor": "Actor",
+  "Severity": "Severity",
+  "6 active · 1 warning": "6 active · 1 warning",
+  "Quick admin actions": "Quick admin actions",
+  "Run access review": "Run access review",
+  "Export audit": "Export audit"
+}

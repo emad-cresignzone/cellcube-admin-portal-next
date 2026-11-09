@@ -1,0 +1,12 @@
+{
+  "{{count}} predefined roles · custom roles allowed by policy": "{{count}} predefined roles · custom roles allowed by policy",
+  "Export matrix": "Export matrix",
+  "{{count}} users": "{{count}} users",
+  "+ {{count}} more": "+ {{count}} more",
+  "{{count}} users · system role": "{{count}} users · system role",
+  "Edit description": "Edit description",
+  "Edit": "Edit",
+  "{{count}} grants · grouped by domain": "{{count}} grants · grouped by domain",
+  "{{count}} users assigned": "{{count}} users assigned",
+  "Assign more users": "Assign more users"
+}

@@ -1,0 +1,6 @@
+{
+  "The {{field}} field is required.": "The {{field}} field is required.",
+  "The {{field}} must be a valid email address.": "The {{field}} must be a valid email address.",
+  "The selected {{field}} is invalid.": "The selected {{field}} is invalid.",
+  "Select at least one role.": "Select at least one role."
+}

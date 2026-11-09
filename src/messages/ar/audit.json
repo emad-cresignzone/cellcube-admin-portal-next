@@ -1,0 +1,13 @@
+{
+  "All logins, permission changes, exports, system changes, failed actions · {{months}}-month retention": "جميع عمليات الدخول وتغييرات الأذونات والتصدير وتغييرات النظام والإجراءات الفاشلة · الاحتفاظ {{months}} شهرًا",
+  "Filters": "عوامل التصفية",
+  "Export CSV": "تصدير CSV",
+  "High severity": "خطورة عالية",
+  "Denied": "مرفوض",
+  "Outcome": "النتيجة",
+  "Detail": "التفاصيل",
+  "ok": "ناجح",
+  "deny": "مرفوض",
+  "High": "عالية",
+  "Info": "معلومات"
+}

@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+
+# Coverage is a build artifact of `npm test -- --coverage`, not source.
+coverage
+
+# Env files. `.env.example` is the only one that belongs in the repository —
+# it documents the variables and carries no values.
+.env
+.env.*
+!.env.example

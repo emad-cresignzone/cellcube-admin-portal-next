@@ -1,0 +1,6 @@
+{
+  "The {{field}} field is required.": "حقل {{field}} مطلوب.",
+  "The {{field}} must be a valid email address.": "يجب أن يكون {{field}} عنوان بريد إلكتروني صالحًا.",
+  "The selected {{field}} is invalid.": "القيمة المحددة لـ {{field}} غير صالحة.",
+  "Select at least one role.": "اختر دورًا واحدًا على الأقل."
+}

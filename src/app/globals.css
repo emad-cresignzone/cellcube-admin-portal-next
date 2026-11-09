@@ -1,0 +1,203 @@
+@import "tailwindcss";
+
+/* Dark mode is driven by data-theme on <html>, set before paint by ThemeScript. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/*
+ * Palette values live on :root / [data-theme="dark"] as raw CSS variables, and
+ * @theme maps them into Tailwind's colour utilities. Swapping the attribute
+ * re-resolves every utility without a re-render.
+ */
+:root {
+  color-scheme: light;
+
+  /* Brand — CellCube navy / Fluent blue */
+  --brand-950: #0a2e4a;
+  --brand-900: #082338;
+  --brand-700: #115ea3;
+  --brand-600: #0f6cbd;
+  --brand-300: #96c6fa;
+  --brand-100: #ebf3fc;
+  --brand-50: #eff6fc;
+  /* Fills that carry white text. The ramp above lightens in dark mode, so these
+     stay dark in both themes to keep that text readable. */
+  --brand-hover: #115ea3;
+  --danger-solid: #c50f1f;
+  --danger-solid-hover: #8e0b16;
+
+  /* Application chrome — kept separate from the brand ramp so the top bar can
+     stay dark in both themes while brand-950 is free to act as accent text. */
+  --topbar: #1f1f1f;
+  --topbar-border: #383838;
+
+  /* Neutrals */
+  --surface: #ffffff;
+  --canvas: #fafafa;
+  --border: #e0e0e0;
+  --divider: #ebebeb;
+  --ink: #1f1f1f;
+  --ink-secondary: #424242;
+  --ink-tertiary: #383838;
+  --muted: #616161;
+  --faint: #808080;
+  --chip: #f5f5f5;
+  --chip-strong: #f0f0f0;
+  --outline: #d1d1d1;
+
+  /* Status */
+  --danger: #c50f1f;
+  --danger-deep: #8e0b16;
+  --danger-bg: #fde7e9;
+  --danger-soft: #f4d8da;
+  --danger-line: #ea8e91;
+  --warn: #f7630c;
+  --warn-deep: #b45413;
+  --warn-bg: #fef1e5;
+  --success: #107c10;
+  --success-deep: #0b5a0b;
+  --success-bg: #e7f5e7;
+  --teal: #00b7c3;
+  --teal-bg: #c5eef0;
+  --teal-deep: #003b3f;
+  --purple: #4f2c8b;
+  --purple-bg: #efeaf6;
+  --plum: #2a1f31;
+  --plum-ink: #e0ccec;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --brand-950: #cfe4fa;
+  --brand-900: #0b2136;
+  --brand-700: #7cc0fb;
+  --brand-600: #2b88d8;
+  --brand-300: #3f6285;
+  --brand-100: #16324c;
+  --brand-50: #142838;
+  --brand-hover: #1f6fb8;
+  --danger-solid: #c50f1f;
+  --danger-solid-hover: #8e0b16;
+
+  --topbar: #0d1b26;
+  --topbar-border: #1e2f3d;
+
+  --surface: #1f1f1f;
+  --canvas: #141414;
+  --border: #333333;
+  --divider: #2b2b2b;
+  --ink: #f5f5f5;
+  --ink-secondary: #d6d6d6;
+  --ink-tertiary: #c8c8c8;
+  --muted: #a3a3a3;
+  --faint: #8a8a8a;
+  --chip: #2a2a2a;
+  --chip-strong: #333333;
+  --outline: #3d3d3d;
+
+  --danger: #ff99a4;
+  --danger-deep: #ffc7cd;
+  --danger-bg: #442726;
+  --danger-soft: #5c2f31;
+  --danger-line: #8e4a4e;
+  --warn: #ffa76a;
+  --warn-deep: #ffd0ab;
+  --warn-bg: #45301f;
+  --success: #6ccb6c;
+  --success-deep: #a7e3a7;
+  --success-bg: #1f3a1f;
+  --teal: #4fd1d9;
+  --teal-bg: #123c3f;
+  --teal-deep: #a8e6ea;
+  --purple: #c5aef0;
+  --purple-bg: #33284a;
+  --plum: #e0ccec;
+  --plum-ink: #2a1f31;
+}
+
+@theme inline {
+  --color-brand-950: var(--brand-950);
+  --color-brand-900: var(--brand-900);
+  --color-brand-700: var(--brand-700);
+  --color-brand-600: var(--brand-600);
+  --color-brand-300: var(--brand-300);
+  --color-brand-100: var(--brand-100);
+  --color-brand-50: var(--brand-50);
+  --color-brand-hover: var(--brand-hover);
+  --color-danger-solid: var(--danger-solid);
+  --color-danger-solid-hover: var(--danger-solid-hover);
+
+  --color-topbar: var(--topbar);
+  --color-topbar-border: var(--topbar-border);
+
+  --color-surface: var(--surface);
+  --color-canvas: var(--canvas);
+  --color-border: var(--border);
+  --color-divider: var(--divider);
+  --color-ink: var(--ink);
+  --color-ink-secondary: var(--ink-secondary);
+  --color-ink-tertiary: var(--ink-tertiary);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-chip: var(--chip);
+  --color-chip-strong: var(--chip-strong);
+  --color-outline: var(--outline);
+
+  --color-danger: var(--danger);
+  --color-danger-deep: var(--danger-deep);
+  --color-danger-bg: var(--danger-bg);
+  --color-danger-soft: var(--danger-soft);
+  --color-danger-line: var(--danger-line);
+  --color-warn: var(--warn);
+  --color-warn-deep: var(--warn-deep);
+  --color-warn-bg: var(--warn-bg);
+  --color-success: var(--success);
+  --color-success-deep: var(--success-deep);
+  --color-success-bg: var(--success-bg);
+  --color-teal: var(--teal);
+  --color-teal-bg: var(--teal-bg);
+  --color-teal-deep: var(--teal-deep);
+  --color-purple: var(--purple);
+  --color-purple-bg: var(--purple-bg);
+  --color-plum: var(--plum);
+  --color-plum-ink: var(--plum-ink);
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
+}
+
+body {
+  background: var(--canvas);
+  color: var(--ink);
+  /* Named directly: `@theme inline` inlines --font-sans, so no such variable exists at runtime. */
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Arabic reads better with a slightly larger line box. */
+[dir="rtl"] body {
+  line-height: 1.6;
+}
+
+/*
+ * Sidebar before hydration.
+ *
+ * The server always renders the rail open — it cannot know the stored
+ * preference or the viewport. `sidebarScript` stamps the real state on <html>
+ * before first paint and these two rules apply it, so a closed rail never
+ * paints open and then slides shut. Once hydrated the provider's own classes
+ * describe the same state, and the attribute stays in sync with them.
+ */
+html[data-sidebar="closed"] #portal-sidebar {
+  /* `translate`, not `transform`: Tailwind v4's own utility sets the same
+     property, so the two never compose into a double shift. */
+  translate: -100% 0;
+}
+
+html[data-sidebar="closed"][dir="rtl"] #portal-sidebar {
+  translate: 100% 0;
+}
+
+html[data-sidebar="closed"] main {
+  margin-inline-start: 0;
+}

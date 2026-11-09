@@ -1,0 +1,23 @@
+{
+  "Overview": "Übersicht",
+  "Identity": "Identität",
+  "Trust": "Vertrauen",
+  "Dashboard": "Dashboard",
+  "User management": "Benutzerverwaltung",
+  "Roles & permissions": "Rollen & Berechtigungen",
+  "Audit & compliance": "Audit & Compliance",
+  "System settings": "Systemeinstellungen",
+  "Admin Portal": "Admin-Portal",
+  "Search users, roles, audit events… (Ctrl K)": "Benutzer, Rollen, Audit-Ereignisse suchen… (Strg K)",
+  "Help": "Hilfe",
+  "Notifications": "Benachrichtigungen",
+  "Close sidebar": "Seitenleiste schließen",
+  "Open sidebar": "Seitenleiste öffnen",
+  "Main navigation": "Hauptnavigation",
+  "Collapse sidebar": "Seitenleiste einklappen",
+  "Expand sidebar": "Seitenleiste ausklappen",
+  "Language": "Sprache",
+  "Toggle theme": "Design wechseln",
+  "Light mode": "Helles Design",
+  "Dark mode": "Dunkles Design"
+}

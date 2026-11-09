@@ -1,0 +1,13 @@
+{
+  "Security rules, password policy, sessions, integrations, audit retention, branding": "Sicherheitsregeln, Passwortrichtlinie, Sitzungen, Integrationen, Audit-Aufbewahrung, Branding",
+  "Sessions": "Sitzungen",
+  "Branding": "Branding",
+  "Password policy": "Passwortrichtlinie",
+  "Account lockout": "Kontosperrung",
+  "Storage and forwarding": "Speicherung und Weiterleitung",
+  "Integration": "Integration",
+  "Type": "Typ",
+  "Health": "Zustand",
+  "Healthy": "Fehlerfrei",
+  "Off": "Aus"
+}

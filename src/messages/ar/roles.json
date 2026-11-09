@@ -1,0 +1,12 @@
+{
+  "{{count}} predefined roles · custom roles allowed by policy": "{{count}} أدوار محددة مسبقًا · الأدوار المخصصة مسموحة حسب السياسة",
+  "Export matrix": "تصدير المصفوفة",
+  "{{count}} users": "{{count}} مستخدمين",
+  "+ {{count}} more": "+ {{count}} أخرى",
+  "{{count}} users · system role": "{{count}} مستخدمين · دور نظام",
+  "Edit description": "تعديل الوصف",
+  "Edit": "تعديل",
+  "{{count}} grants · grouped by domain": "{{count}} صلاحيات · مجمعة حسب المجال",
+  "{{count}} users assigned": "{{count}} مستخدمين معينين",
+  "Assign more users": "تعيين مستخدمين آخرين"
+}
